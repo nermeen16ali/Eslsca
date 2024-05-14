@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Eslsca-logo-small.webp" type="image/icon type">
+    <title>Payment details Eslsca University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="position-relative">
+    <div class="payment-details position-relative ">
+        <div class="container">
+            <header class="DBA-header">
+                <a href="cart.html">
+                    <img src="images/backdark_page.svg" alt="">
+                </a>
+                <a href="masters.html" class="logo-container">
+                    <img src="images/darkLogo.svg" class="img-fluid " alt="Eslsca-Logo">
+                </a>
+            </header>
+            <h5>Choose your preferred payment method</h5>
+            <div class="price-details dropdown">
+                <button class="btn payment-item dropdown-toggle w-100 d-flex align-items-center justify-content-between " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex"><span class="text-lg fw-bold currency">EUR </span> <h3 class="sm-heading">115.49</h3></div><div><span class="text-lg fw-bold details">Details</span> <span><img src="images/detail-arrow.svg" class="img-fluid ms-1" alt="" id="arr-icon"></span></div>
+                </button>
+                <ul class="dropdown-menu pay-details" aria-labelledby="dropdownMenuButton1">
+                  <li class="d-flex align-items-center justify-content-between"><span class="text-md">Order: #9191212737, item: iMBA</span> <span class="text-md">100</span></li>
+                  <li class="d-flex align-items-center justify-content-between"><span class="text-md fw-600">Tax</span> <span class="text-md">15.49</span></li>
+                  <li class="d-flex align-items-center justify-content-between"><span class="text-md fw-600">Total (EUR)</span> <span class="text-md">115.49</span></li>
+                </ul>
+            </div>
+            <div class="payment-item d-flex align-items-center justify-content-between ">
+                <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input" name="payment-method" type="radio" id="visa">
+                    <label for="visa">
+                        <span><img src="images/ri_visa-line.svg" class="img-fluid " alt=""></span>
+                        <span><img src="images/logos_mastercard.svg" class="img-fluid " alt=""></span>
+                        <span><img src="images/logos_jcb.svg" class="img-fluid " alt=""></span>
+                    </label>
+                </div>
+                <span class="text-lg fw-bold ">Credit Card</span>
+            </div>
+            <div class="payment-item d-flex align-items-center justify-content-between ">
+                <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input" name="payment-method" type="radio" id="fawry">
+                    <label for="fawry">
+                        <span><img src="images/fawry.svg" class="img-fluid " alt=""></span>
+                    </label>
+                </div>
+                <span class="text-lg fw-bold ">Fawry</span>
+            </div>
+            <div class="payment-item d-flex align-items-center justify-content-between ">
+                <div class="form-check shrunked d-flex align-items-center ">
+                    <input class="form-check-input" type="radio" name="payment-method" id="mobile-wallet">
+                    <label for="mobile-wallet">
+                        <span><img src="images/vodafone-icon 1.svg" class="img-fluid " alt=""></span>
+                        <span><img src="images/etisalat-1 1.svg" class="img-fluid " alt=""></span>
+                        <span><img src="images/others.svg" class="img-fluid " alt=""></span>
+                    </label>
+                </div>
+                <div class="text-end ">
+                    <span class="text-lg fw-bold ">Mobile Wallet</span>
+                    <p class="text-sm">vodafone cash, Etisalat cash or orange cash</p>
+                </div>
+            </div>
+            <div class="payment-item d-flex align-items-center justify-content-between ">
+                <div class="form-check shrunked">
+                    <input class="form-check-input" type="radio" name="payment-method" id="aman">
+                    <label for="aman">
+                        <span><img src="images/amaan.svg" class="img-fluid " alt=""></span>
+                    </label>
+                </div>
+                <span class="text-lg fw-bold ">Aman</span>
+            </div>
+        </div>
+    </div>
+    <section class="register-btm container">
+        <a href="credit-card.html" class="main-btn text-decoration-none d-flex align-items-center justify-content-between ">Proceed to Payment <img src="images/nextArrow.svg" alt=""> </a>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script></body>
+</body>
+</html>
